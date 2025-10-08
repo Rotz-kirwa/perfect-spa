@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe Spa & Salon - Premium Beauty & Wellness</title>
+    <meta name="description" content="Luxury spa, barber shop, and salon offering premium beauty and wellness services. Book your appointment today.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Luxe Spa & Salon</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li class="dropdown">
+                    <a href="#services" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#spa-services">Spa Services</a>
+                        <a href="#barber-services">Barber Services</a>
+                        <a href="#salon-services">Salon Services</a>
+                        <a href="#home-services">Home Services</a>
+                    </div>
+                </li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#booking" class="nav-link btn-book">Book Now</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <button class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: url('https://media.istockphoto.com/id/1388628687/photo/woman-at-the-spa-getting-a-rejuvenation-treatment-on-her-face.webp?a=1&b=1&s=612x612&w=0&k=20&c=yrk4vYu4TF3Ce28aYczmtDn-E6QbH83j21He32Ge0i4=')">
+                <div class="slide-content">
+                    <h1>Rejuvenating Facial Treatments</h1>
+                    <p>Professional skincare and anti-aging treatments for radiant skin</p>
+                    <div class="hero-buttons">
+                        <a href="#booking" class="btn btn-primary">Book Now</a>
+                        <a href="#services" class="btn btn-secondary">Explore Services</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('https://media.istockphoto.com/id/1158069523/photo/close-up-of-a-beautiful-woman-receiving-back-massage-at-spa.webp?a=1&b=1&s=612x612&w=0&k=20&c=EEK7MUnksL7vE-5_aFPm4vW6TeXL7vjinU6jQcFqHRI=')">
+                <div class="slide-content">
+                    <h1>Therapeutic Massage Therapy</h1>
+                    <p>Relax and rejuvenate with our expert massage treatments</p>
+                    <div class="hero-buttons">
+                        <a href="#booking" class="btn btn-primary">Book Now</a>
+                        <a href="#spa-services" class="btn btn-secondary">Spa Menu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1610289982320-3891f7c9fd6d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8THV4ZSUyMFNwYSUyMHNlcnZpY2VzfGVufDB8fDB8fHww')">
+                <div class="slide-content">
+                    <h1>Luxury Spa Services</h1>
+                    <p>Premium wellness treatments in an elegant atmosphere</p>
+                    <div class="hero-buttons">
+                        <a href="#booking" class="btn btn-primary">Book Now</a>
+                        <a href="#services" class="btn btn-secondary">View Services</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1729720281762-d7936637cc83?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8THV4ZSUyMFNwYSUyMHNlcnZpY2VzfGVufDB8fDB8fHww')">
+                <div class="slide-content">
+                    <h1>Holistic Wellness Experience</h1>
+                    <p>Complete mind and body rejuvenation treatments</p>
+                    <div class="hero-buttons">
+                        <a href="#booking" class="btn btn-primary">Book Now</a>
+                        <a href="#spa-services" class="btn btn-secondary">Wellness Menu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1630595633877-9918ee257288?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8THV4ZSUyMFNwYSUyMHNlcnZpY2VzfGVufDB8fDB8fHww')">
+                <div class="slide-content">
+                    <h1>Premium Beauty Treatments</h1>
+                    <p>Advanced skincare and beauty enhancement services</p>
+                    <div class="hero-buttons">
+                        <a href="#booking" class="btn btn-primary">Book Now</a>
+                        <a href="#salon-services" class="btn btn-secondary">Beauty Services</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1561444374-e07b64c9ccc2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fEx1eGUlMjBTcGElMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D')">
+                <div class="slide-content">
+                    <h1>Elevate Your Look, Relax Your Mind</h1>
+                    <p>Luxury Spa, Barber, and Salon Experiences Tailored for You</p>
+                    <div class="hero-buttons">
+                        <a href="#booking" class="btn btn-primary">Book Now</a>
+                        <a href="#services" class="btn btn-secondary">Explore All Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-nav">
+            <button class="prev-slide"><i class="fas fa-chevron-left"></i></button>
+            <button class="next-slide"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="slider-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+            <span class="dot" data-slide="3"></span>
+            <span class="dot" data-slide="4"></span>
+            <span class="dot" data-slide="5"></span>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Premium Services</h2>
+                <p>Discover our comprehensive range of luxury treatments</p>
+            </div>
+            
+            <!-- Spa Services -->
+            <div id="spa-services" class="service-category">
+                <h3><i class="fas fa-leaf"></i> Spa Services</h3>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Massage Therapy" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-hands"></i>
+                            <h4>Massages</h4>
+                            <p>Swedish, deep tissue, hot stone, aromatherapy</p>
+                            <span class="price">From KSh 10,400</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Facial Treatment" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-user-circle"></i>
+                            <h4>Facials</h4>
+                            <p>Anti-aging, acne treatment, hydrafacial</p>
+                            <span class="price">From KSh 8,450</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Body Treatment" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-spa"></i>
+                            <h4>Body Treatments</h4>
+                            <p>Scrubs, wraps, detox therapies</p>
+                            <span class="price">From KSh 11,700</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://media.istockphoto.com/id/1350573850/photo/woman-having-pedicure-and-manicure-at-beauty-spa-during-pandemic.webp?a=1&b=1&s=612x612&w=0&k=20&c=T6z5JYqd9_Ie-UsoFW3aIm_gQLnr7yinSLFUdYrlbxo=" alt="Manicure Service" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-hand-sparkles"></i>
+                            <h4>Manicure/Pedicure</h4>
+                            <p>Gel, acrylic, luxury packages</p>
+                            <span class="price">From KSh 4,550</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1578496781481-cfbd89f9aca8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fENyeW90aGVyYXB5fGVufDB8fDB8fHww" alt="Cryotherapy" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-snowflake"></i>
+                            <h4>Cryotherapy</h4>
+                            <p>Whole-body recovery and skin rejuvenation</p>
+                            <span class="price">From KSh 12,500</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://plus.unsplash.com/premium_photo-1661694136168-6406667a487c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fEluZnJhcmVkJTIwU2F1bmF8ZW58MHx8MHx8fDA%3D" alt="Infrared Sauna" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-fire"></i>
+                            <h4>Infrared Sauna</h4>
+                            <p>Detoxify and relax with infrared heat</p>
+                            <span class="price">From KSh 8,900</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="LED Light Therapy" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-lightbulb"></i>
+                            <h4>LED Light Therapy</h4>
+                            <p>Anti-aging and skin rejuvenation</p>
+                            <span class="price">From KSh 9,800</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://plus.unsplash.com/premium_photo-1661689842340-093af7951849?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RmxvYXRhdGlvbiUyMFRoZXJhcHl8ZW58MHx8MHx8fDA%3D" alt="Floatation Therapy" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-water"></i>
+                            <h4>Floatation Therapy</h4>
+                            <p>Zero-gravity saltwater meditation pod</p>
+                            <span class="price">From KSh 15,000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Barber Services -->
+            <div id="barber-services" class="service-category">
+                <h3><i class="fas fa-cut"></i> Barber Services</h3>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1664746789500-7d1885ca996f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE5fHxjbGFzc2ljJTIwaGFpcmN1dHN8ZW58MHx8MHx8fDA%3D" alt="Professional Haircut" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-scissors"></i>
+                            <h4>Haircuts</h4>
+                            <p>Classic, fade, undercut, taper</p>
+                            <span class="price">From KSh 5,850</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://plus.unsplash.com/premium_photo-1661431469491-abe9163de0dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fEJlYXJkJTIwR3Jvb21pbmd8ZW58MHx8MHx8fDA%3D" alt="Beard Grooming" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-user-tie"></i>
+                            <h4>Beard Grooming</h4>
+                            <p>Trimming, shaping, hot towel shave</p>
+                            <span class="price">From KSh 3,900</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1672642150228-3fcd5826ec26?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fFNoYXZlc3xlbnwwfHwwfHx8MA%3D%3D" alt="Professional Shave" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-razor"></i>
+                            <h4>Shaves</h4>
+                            <p>Straight razor, royal shave</p>
+                            <span class="price">From KSh 5,200</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://plus.unsplash.com/premium_photo-1664036154122-9686b7a6e7b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGNsYXNzaWMlMjBIYWlyJTIwQ29sb3Jpbmd8ZW58MHx8MHx8fDA%3D" alt="Hair Coloring" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-palette"></i>
+                            <h4>Hair Coloring</h4>
+                            <p>Professional coloring & styling</p>
+                            <span class="price">From KSh 9,750</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1643898804167-5e21a07d6fe7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fEJlYXJkJTIwRHllaW5nfGVufDB8fDB8fHww" alt="Beard Dyeing" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-paint-brush"></i>
+                            <h4>Beard Dyeing</h4>
+                            <p>Professional beard coloring service</p>
+                            <span class="price">From KSh 5,500</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1664549761426-6a1cb1032854?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY3fHxNZW4ncyUyMFNraW5jYXJlJTIwRmFjaWFsc3xlbnwwfHwwfHx8MA%3D%3D" alt="Men's Facial" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-male"></i>
+                            <h4>Men's Skincare Facials</h4>
+                            <p>Anti-aging and acne control for men</p>
+                            <span class="price">From KSh 9,200</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://media.istockphoto.com/id/1198745727/photo/scalp-micro-pigmentation-of-bald-african-american-man.webp?a=1&b=1&s=612x612&w=0&k=20&c=7pQN7zs_R6NBBCJkvYvywYpWhlqE27hmj46slNwZcWk=" alt="Scalp Micropigmentation" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-head-side-brain"></i>
+                            <h4>Scalp Micropigmentation</h4>
+                            <p>Non-surgical baldness solution</p>
+                            <span class="price">From KSh 45,000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Salon Services -->
+            <div id="salon-services" class="service-category">
+                <h3><i class="fas fa-magic"></i> Salon Services</h3>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGFpciUyMFN0eWxpbmd8ZW58MHx8MHx8fDA%3D" alt="Hair Styling" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-wind"></i>
+                            <h4>Hair Styling</h4>
+                            <p>Blowouts, updos, braiding</p>
+                            <span class="price">From KSh 7,150</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://plus.unsplash.com/premium_photo-1661963712181-4b5e735fb393?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fEhhaXIlMjBUcmVhdG1lbnRzfGVufDB8fDB8fHww" alt="Hair Treatment" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-heart"></i>
+                            <h4>Hair Treatments</h4>
+                            <p>Keratin, Olaplex, deep conditioning</p>
+                            <span class="price">From KSh 11,050</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Hair Extensions" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-crown"></i>
+                            <h4>Extensions & Weaves</h4>
+                            <p>Premium hair extensions</p>
+                            <span class="price">From KSh 19,500</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1747847472156-82c4cf8338c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QnJpZGFsJTIwU3R5bGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="Bridal Styling" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-ring"></i>
+                            <h4>Bridal Styling</h4>
+                            <p>Wedding & event styling</p>
+                            <span class="price">From KSh 26,000</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://plus.unsplash.com/premium_photo-1677174625106-247055639564?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fEtlcmF0aW4lMjBUcmVhdG1lbnR8ZW58MHx8MHx8fDA%3D" alt="Keratin Treatment" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-leaf"></i>
+                            <h4>Keratin Treatment</h4>
+                            <p>Smooth frizz for up to 3 months</p>
+                            <span class="price">From KSh 15,800</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://plus.unsplash.com/premium_photo-1702598666754-a96b5beef2a0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fFNjYWxwJTIwVHJlYXRtZW50c3xlbnwwfHwwfHx8MA%3D%3D" alt="Scalp Treatment" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-seedling"></i>
+                            <h4>Scalp Treatments</h4>
+                            <p>Deep-cleansing scalp health therapy</p>
+                            <span class="price">From KSh 8,200</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Teeth Whitening" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-tooth"></i>
+                            <h4>Teeth Whitening</h4>
+                            <p>Professional in-salon whitening</p>
+                            <span class="price">From KSh 14,200</span>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1657563920440-0ac6d8932f20?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8U3ByYXklMjBUYW5uaW5nfGVufDB8fDB8fHww" alt="Spray Tanning" class="service-card-image">
+                        <div class="service-card-content">
+                            <i class="fas fa-sun"></i>
+                            <h4>Spray Tanning</h4>
+                            <p>Sunless, streak-free natural glow</p>
+                            <span class="price">From KSh 6,500</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Luxe Spa & Salon</h2>
+                    <p>For over a decade, we've been the premier destination for luxury beauty and wellness services. Our team of certified professionals combines traditional techniques with modern innovations to deliver exceptional experiences.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5000+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat">
+                            <h3>15+</h3>
+                            <p>Expert Staff</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Spa Interior">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Gallery</h2>
+                <p>See our work and beautiful spaces</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://plus.unsplash.com/premium_photo-1683134297492-cce5fc6dae31?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c3BhfGVufDB8fDB8fHww" alt="Luxury Spa Interior">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1554424518-336ec861b705?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNwYXxlbnwwfHwwfHx8MA%3D%3D" alt="Spa Treatment Room">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1591343395082-e120087004b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHNwYXxlbnwwfHwwfHx8MA%3D%3D" alt="Relaxation Area">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1639162906614-0603b0ae95fd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fHNwYXxlbnwwfHwwfHx8MA%3D%3D" alt="Spa Wellness">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1630595271375-5073a6c0638b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHNwYXxlbnwwfHwwfHx8MA%3D%3D" alt="Spa Therapy">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1696841212541-449ca29397cc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fHNwYXxlbnwwfHwwfHx8MA%3D%3D" alt="Spa Environment">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://plus.unsplash.com/premium_photo-1683133550100-6ee41085c908?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHNwYXxlbnwwfHwwfHx8MA%3D%3D" alt="Premium Spa Services">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1506003094589-53954a26283f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fHNwYXxlbnwwfHwwfHx8MA%3D%3D" alt="Spa Ambiance">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1643685276743-1b52832c58d5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fHNwYXxlbnwwfHwwfHx8MA%3D%3D" alt="Spa Experience">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://plus.unsplash.com/premium_photo-1681873744075-cb398a509f51?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE3fHxzcGF8ZW58MHx8MHx8fDA%3D" alt="Luxury Spa Setting">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Professional Barber Shop">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Hot Towel Shave">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Relaxing Massage">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Facial Treatment">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Luxury Salon Interior">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Hair Styling Session">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Steam Treatment">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Professional Barber at Work">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Deep Tissue Massage">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Skincare Treatment">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Spa Relaxation Area">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1582095133179-bfd08e2fc6b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Manicure Service">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Beard Grooming">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Hair Washing">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Transparent Pricing</h2>
+                <p>Choose the perfect package for your needs</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Wellness Retreat</h3>
+                    <div class="price">KSh 35,000</div>
+                    <ul>
+                        <li>Floatation Therapy</li>
+                        <li>Infrared Sauna</li>
+                        <li>Deep Tissue Massage</li>
+                        <li>LED Light Therapy</li>
+                        <li>Champagne & Refreshments</li>
+                    </ul>
+                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>Ultimate Luxury Experience</h3>
+                    <div class="price">KSh 65,000</div>
+                    <ul>
+                        <li>Cryotherapy Session</li>
+                        <li>Complete Makeover</li>
+                        <li>Teeth Whitening</li>
+                        <li>Spray Tan</li>
+                        <li>VIP Lounge Access</li>
+                        <li>Professional Photos</li>
+                    </ul>
+                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Gentleman's Elite</h3>
+                    <div class="price">KSh 25,000</div>
+                    <ul>
+                        <li>Scalp Micropigmentation Consultation</li>
+                        <li>Men's Skincare Facial</li>
+                        <li>Premium Haircut & Styling</li>
+                        <li>Beard Dyeing & Grooming</li>
+                        <li>Scalp Treatment</li>
+                    </ul>
+                    <a href="#booking" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <div class="section-header">
+                <h2>Book Your Appointment</h2>
+                <p>Schedule your luxury experience today</p>
+            </div>
+            <form class="booking-form" id="booking-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="service">Service</label>
+                        <select id="service" required>
+                            <option value="">Select a service</option>
+                            <option value="massage">Massage Therapy</option>
+                            <option value="facial">Facial Treatment</option>
+                            <option value="haircut">Haircut & Styling</option>
+                            <option value="beard">Beard Grooming</option>
+                            <option value="cryotherapy">Cryotherapy</option>
+                            <option value="floatation">Floatation Therapy</option>
+                            <option value="led-therapy">LED Light Therapy</option>
+                            <option value="teeth-whitening">Teeth Whitening</option>
+                            <option value="scalp-treatment">Scalp Treatment</option>
+                            <option value="wellness-package">Wellness Retreat Package</option>
+                            <option value="luxury-package">Ultimate Luxury Package</option>
+                            <option value="gentleman-package">Gentleman's Elite Package</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="stylist">Preferred Stylist</label>
+                        <select id="stylist">
+                            <option value="">Any Available</option>
+                            <option value="sarah">Sarah - Spa Specialist</option>
+                            <option value="mike">Mike - Master Barber</option>
+                            <option value="emma">Emma - Hair Stylist</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                        <select id="time" required>
+                            <option value="">Select time</option>
+                            <option value="09:00">9:00 AM</option>
+                            <option value="10:00">10:00 AM</option>
+                            <option value="11:00">11:00 AM</option>
+                            <option value="14:00">2:00 PM</option>
+                            <option value="15:00">3:00 PM</option>
+                            <option value="16:00">4:00 PM</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="notes">Special Requests</label>
+                    <textarea id="notes" rows="3" placeholder="Any special requests or notes..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Book Appointment</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2>Beauty & Wellness Blog</h2>
+                <p>Tips, trends, and expert advice</p>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Self-care tips">
+                    <div class="blog-content">
+                        <h3>5 Self-Care Tips for Busy Professionals</h3>
+                        <p>Discover simple ways to incorporate wellness into your hectic schedule...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Haircut guide">
+                    <div class="blog-content">
+                        <h3>How to Choose the Right Haircut for Your Face Shape</h3>
+                        <p>Expert tips from our master stylists on finding your perfect cut...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Skincare routine">
+                    <div class="blog-content">
+                        <h3>Winter Skincare: Protecting Your Skin</h3>
+                        <p>Essential tips for maintaining healthy, glowing skin during colder months...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Real experiences from our valued customers</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"The best hot towel shave I've ever had! Mike's attention to detail is incredible."</p>
+                    <div class="client">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="James K.">
+                        <div>
+                            <h4>James K.</h4>
+                            <span>Regular Client</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Sarah's facials are amazing! My skin has never looked better. Highly recommend!"</p>
+                    <div class="client">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Maria S.">
+                        <div>
+                            <h4>Maria S.</h4>
+                            <span>VIP Member</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Perfect venue for my wedding prep. Emma made me feel like a queen!"</p>
+                    <div class="client">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Lisa M.">
+                        <div>
+                            <h4>Lisa M.</h4>
+                            <span>Bride</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>We'd love to hear from you</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Westlands Square, Waiyaki Way<br>Nairobi, Kenya 00100</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+254 712 345 678</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@luxespakenya.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Mon-Sat: 8AM-9PM<br>Sunday: 9AM-7PM</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Luxe Spa & Salon</h3>
+                    <p>Your premier destination for luxury beauty and wellness services.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#booking">Book Now</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#spa-services">Spa Treatments</a></li>
+                        <li><a href="#barber-services">Barber Services</a></li>
+                        <li><a href="#salon-services">Hair Salon</a></li>
+                        <li><a href="#pricing">Packages</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for exclusive offers and beauty tips</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Luxe Spa & Salon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- VIP Popup -->
+    <div id="vip-popup" class="popup-overlay">
+        <div class="popup-content">
+            <button class="popup-close">&times;</button>
+            <h3>Join Our VIP Club!</h3>
+            <p>Get 10% off your first visit and exclusive access to special offers.</p>
+            <form class="vip-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn btn-primary">Join Now</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Floating WhatsApp Icon -->
+    <a href="https://wa.me/254712345678" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>

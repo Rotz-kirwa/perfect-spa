@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Luxe Spa & Salon</title>
+    <meta name="description" content="Frequently asked questions about our luxury spa, barber, and salon services.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2><a href="index.html" style="text-decoration: none; color: inherit;">Luxe Spa & Salon</a></h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#services" class="nav-link">Services</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="index.html#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="index.html#blog" class="nav-link">Blog</a></li>
+                <li><a href="faq.html" class="nav-link">FAQ</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+                <li><a href="index.html#booking" class="nav-link btn-book">Book Now</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <button class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- FAQ Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Frequently Asked Questions</h1>
+            <p>Find answers to common questions about our services and policies</p>
+        </div>
+    </section>
+
+    <!-- FAQ Content -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="faq-categories">
+                <button class="faq-category-btn active" data-category="all">All Questions</button>
+                <button class="faq-category-btn" data-category="booking">Booking & Appointments</button>
+                <button class="faq-category-btn" data-category="services">Services & Pricing</button>
+                <button class="faq-category-btn" data-category="policies">Policies & Guidelines</button>
+                <button class="faq-category-btn" data-category="covid">Health & Safety</button>
+            </div>
+
+            <div class="faq-container">
+                <!-- Booking & Appointments -->
+                <div class="faq-item" data-category="booking">
+                    <div class="faq-question">
+                        <h3>How do I book an appointment?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can book an appointment through our website using the online booking form, call us at (555) 123-4567, or visit us in person. We recommend booking in advance, especially for weekend appointments and special services.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="booking">
+                    <div class="faq-question">
+                        <h3>How far in advance should I book?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We recommend booking 1-2 weeks in advance for regular services and 3-4 weeks for special occasions like bridal services or holiday appointments. Same-day appointments may be available based on availability.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="booking">
+                    <div class="faq-question">
+                        <h3>Can I request a specific stylist or therapist?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! You can request your preferred stylist or therapist when booking. Please note that specific requests may affect availability, so we recommend booking further in advance.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="booking">
+                    <div class="faq-question">
+                        <h3>What is your cancellation policy?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We require 24-hour notice for cancellations. Cancellations made less than 24 hours in advance may be subject to a 50% service charge. No-shows will be charged the full service amount.</p>
+                    </div>
+                </div>
+
+                <!-- Services & Pricing -->
+                <div class="faq-item" data-category="services">
+                    <div class="faq-question">
+                        <h3>What services do you offer?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer a full range of spa services (massages, facials, body treatments), barber services (haircuts, shaves, beard grooming), and salon services (hair styling, coloring, treatments, extensions). View our complete service menu on our Services page.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="services">
+                    <div class="faq-question">
+                        <h3>Do you offer package deals or memberships?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We offer several package deals and a VIP membership program with exclusive discounts and priority booking. Check our Pricing page for current packages and membership benefits.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="services">
+                    <div class="faq-question">
+                        <h3>How long do different services take?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Service times vary: Haircuts (45-60 min), Massages (60-90 min), Facials (60-75 min), Beard grooming (30-45 min), Hair coloring (2-3 hours). Exact timing will be confirmed when booking.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="services">
+                    <div class="faq-question">
+                        <h3>Do you use organic or natural products?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We use premium, professional-grade products including many organic and natural options. Our product lines include Aveda, Olaplex, and other high-quality brands. We can accommodate specific product preferences when possible.</p>
+                    </div>
+                </div>
+
+                <!-- Policies & Guidelines -->
+                <div class="faq-item" data-category="policies">
+                    <div class="faq-question">
+                        <h3>What payment methods do you accept?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We accept cash, all major credit cards (Visa, MasterCard, American Express), and digital payments (Apple Pay, Google Pay). Gift cards are also available for purchase.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="policies">
+                    <div class="faq-question">
+                        <h3>What is your tipping policy?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Gratuity is not included in service prices and is at your discretion. Standard tipping is 18-20% for excellent service. Tips can be added to credit card payments or given in cash.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="policies">
+                    <div class="faq-question">
+                        <h3>Do you have age restrictions?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Children under 16 must be accompanied by a parent or guardian. Some spa services have age restrictions (18+ for certain treatments). We offer family-friendly services and can accommodate children's needs.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="policies">
+                    <div class="faq-question">
+                        <h3>What should I wear to my appointment?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Wear comfortable clothing. For spa services, we provide robes and disposable undergarments. For hair services, wear something with a loose neckline. We'll provide protective capes and towels as needed.</p>
+                    </div>
+                </div>
+
+                <!-- Health & Safety -->
+                <div class="faq-item" data-category="covid">
+                    <div class="faq-question">
+                        <h3>What health and safety measures do you have in place?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We maintain the highest hygiene standards with sanitized equipment, disposable items where appropriate, regular deep cleaning, and health screening protocols. All staff are trained in current health and safety guidelines.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="covid">
+                    <div class="faq-question">
+                        <h3>Do I need to wear a mask?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Mask requirements follow current local health guidelines. We respect personal preferences and can accommodate clients who prefer to wear masks. Our staff will follow the same protocols you're comfortable with.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="covid">
+                    <div class="faq-question">
+                        <h3>What if I'm feeling unwell?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Please reschedule if you're feeling unwell or have any symptoms. We'll waive cancellation fees for health-related cancellations. Your health and the health of our staff and other clients is our priority.</p>
+                    </div>
+                </div>
+
+                <!-- Additional Questions -->
+                <div class="faq-item" data-category="services">
+                    <div class="faq-question">
+                        <h3>Do you offer bridal and event services?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We specialize in bridal and special event styling. We offer on-site services, trial runs, and group packages. Book a consultation to discuss your special day needs and create a customized package.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="services">
+                    <div class="faq-question">
+                        <h3>Can I purchase gift cards?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Gift cards are available in any denomination and can be purchased online, by phone, or in person. They make perfect gifts and never expire. Digital gift cards can be emailed directly to recipients.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="policies">
+                    <div class="faq-question">
+                        <h3>Do you have parking available?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we have complimentary parking available for all clients. Our parking lot is well-lit and secure. Valet parking is available for special events and VIP members.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-category="services">
+                    <div class="faq-question">
+                        <h3>What if I'm not satisfied with my service?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Your satisfaction is guaranteed. If you're not completely happy with your service, please let us know within 48 hours. We'll work with you to make it right, whether that's a complimentary touch-up or full service redo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact CTA -->
+            <div class="faq-cta">
+                <h3>Still Have Questions?</h3>
+                <p>Can't find the answer you're looking for? Our friendly team is here to help!</p>
+                <div class="cta-buttons">
+                    <a href="index.html#contact" class="btn btn-primary">Contact Us</a>
+                    <a href="tel:5551234567" class="btn btn-secondary">Call (555) 123-4567</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Luxe Spa & Salon</h3>
+                    <p>Your premier destination for luxury beauty and wellness services.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#pricing">Pricing</a></li>
+                        <li><a href="index.html#booking">Book Now</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="index.html#spa-services">Spa Treatments</a></li>
+                        <li><a href="index.html#barber-services">Barber Services</a></li>
+                        <li><a href="index.html#salon-services">Hair Salon</a></li>
+                        <li><a href="index.html#pricing">Packages</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for exclusive offers and beauty tips</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Luxe Spa & Salon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // FAQ Specific JavaScript
+        document.addEventListener('DOMContentLoaded', function() {
+            // FAQ Toggle Functionality
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                const answer = item.querySelector('.faq-answer');
+                const icon = question.querySelector('i');
+                
+                question.addEventListener('click', () => {
+                    const isActive = item.classList.contains('active');
+                    
+                    // Close all other FAQ items
+                    faqItems.forEach(otherItem => {
+                        if (otherItem !== item) {
+                            otherItem.classList.remove('active');
+                            otherItem.querySelector('.faq-answer').style.maxHeight = null;
+                            otherItem.querySelector('i').style.transform = 'rotate(0deg)';
+                        }
+                    });
+                    
+                    // Toggle current item
+                    if (isActive) {
+                        item.classList.remove('active');
+                        answer.style.maxHeight = null;
+                        icon.style.transform = 'rotate(0deg)';
+                    } else {
+                        item.classList.add('active');
+                        answer.style.maxHeight = answer.scrollHeight + 'px';
+                        icon.style.transform = 'rotate(180deg)';
+                    }
+                });
+            });
+            
+            // Category Filter Functionality
+            const categoryBtns = document.querySelectorAll('.faq-category-btn');
+            
+            categoryBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const category = btn.dataset.category;
+                    
+                    // Update active button
+                    categoryBtns.forEach(otherBtn => otherBtn.classList.remove('active'));
+                    btn.classList.add('active');
+                    
+                    // Filter FAQ items
+                    faqItems.forEach(item => {
+                        const itemCategory = item.dataset.category;
+                        
+                        if (category === 'all' || itemCategory === category) {
+                            item.style.display = 'block';
+                            // Close any open items when filtering
+                            item.classList.remove('active');
+                            item.querySelector('.faq-answer').style.maxHeight = null;
+                            item.querySelector('i').style.transform = 'rotate(0deg)';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+    
+    <style>
+        /* FAQ Specific Styles */
+        .page-header {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: white;
+            padding: 120px 0 80px;
+            text-align: center;
+        }
+        
+        .page-header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .page-header p {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.9);
+        }
+        
+        .faq-section {
+            padding: 80px 0;
+        }
+        
+        .faq-categories {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+        
+        .faq-category-btn {
+            padding: 10px 20px;
+            border: 2px solid var(--secondary-color);
+            background: transparent;
+            color: var(--text-color);
+            border-radius: 25px;
+            cursor: pointer;
+            transition: var(--transition);
+            font-weight: 500;
+        }
+        
+        .faq-category-btn.active,
+        .faq-category-btn:hover {
+            background: var(--secondary-color);
+            color: white;
+        }
+        
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .faq-item {
+            background: var(--bg-color);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+            transition: var(--transition);
+        }
+        
+        .faq-item:hover {
+            box-shadow: var(--shadow);
+        }
+        
+        .faq-question {
+            padding: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: var(--transition);
+        }
+        
+        .faq-question:hover {
+            background: var(--bg-secondary);
+        }
+        
+        .faq-question h3 {
+            margin: 0;
+            color: var(--primary-color);
+            font-size: 1.1rem;
+        }
+        
+        .faq-question i {
+            color: var(--secondary-color);
+            transition: transform 0.3s ease;
+        }
+        
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .faq-answer p {
+            padding: 0 1.5rem 1.5rem;
+            margin: 0;
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+        
+        .faq-cta {
+            text-align: center;
+            margin-top: 4rem;
+            padding: 3rem;
+            background: var(--bg-secondary);
+            border-radius: 15px;
+        }
+        
+        .faq-cta h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .faq-cta p {
+            margin-bottom: 2rem;
+            color: var(--text-light);
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .page-header h1 {
+                font-size: 2.5rem;
+            }
+            
+            .faq-categories {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .faq-category-btn {
+                width: 200px;
+            }
+            
+            .faq-question {
+                padding: 1rem;
+            }
+            
+            .faq-question h3 {
+                font-size: 1rem;
+            }
+            
+            .faq-answer p {
+                padding: 0 1rem 1rem;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</body>
+</html>
